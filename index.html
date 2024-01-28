@@ -1,0 +1,671 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>assigenment</title>
+  <!-- font-awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- daisy ui and tailwind -->
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- tailwind -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+  <!-- google fontt  -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap" rel="stylesheet">
+
+
+
+  <!-- css link -->
+
+  <link rel="stylesheet" href="style/styles.css">
+
+</head>
+
+<body>
+
+  <header>
+
+    <div class="container mx-auto lg:px-24">
+      <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a class="text-[#FF4240]">Home</a></li>
+              <li>
+                <a>About</a>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
+              </li>
+
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">Hockey<span class="text-[#FF4240]">'</span>s</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a class="text-[#FF4240]">Home</a></li>
+            <li>
+
+              <summary>About</summary>
+
+
+            </li>
+
+            <li><a>Page</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Contact</a></li>
+
+          </ul>
+        </div>
+        <div class="navbar-end">
+
+          <div>
+            <i class="px-2 fa-solid fa-magnifying-glass"></i>
+          </div>
+          <div>
+            <a class="btn btn-error text-white">Get Ticket</a>
+
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </header>
+
+  <main>
+    <!-- carusel section -->
+
+    <div class="container mx-auto lg:px-24 py-8">
+
+
+      <div class="carousel w-full">
+
+        <div id="slide1"
+          class="carousel-item relative w-full bg-[url(./Images/banner1.png)]  bg-contain bg-no-repeat h-[200px] lg:h-[70vh] lg:bg-cover rounded-lg">
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+        <div id="slide2"
+          class="carousel-item relative w-full  bg-[url(./Images/banner2.png)] bg-contain  bg-no-repeat h-[200px]  lg:h-[70vh]    lg:bg-cover rounded-lg">
+
+          <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide1" class="btn btn-circle">❮</a>
+            <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+      </div>
+      <div
+        class="w-full  lg:w-2/6 lg:h-[15vh]  bg-black mx-auto p-5 -mt-20 lg:mt-0 lg:-translate-y-52 lg:translate-x-96">
+        <h4 class="text-2xl font-extrabold text-white">Meet all the heroes from the field</h4>
+        <p class="font-medium text-white">It's like if you want something so badly go out and grab.</p> -->
+
+      </div>
+
+    </div> -->
+    <!-- professional hockeys club -->
+
+    <section>
+      <div class="professional">
+
+        <h2 class="font-extrabold text-4xl ">Professional Hockeys Club</h2>
+        <p class="font-medium text-[#13131899]">We pride ourselves on being a friendly, inclusive club offering
+          hockey for all.
+
+        </p>
+
+      </div>
+      <!-- progress bar -->
+      <div class="container mx-auto  px-6  lg:px-24 py-8 gap-4   grid grid-cols-1  lg:grid-cols-4">
+
+
+        <div class="mx-auto">
+
+
+          <div class=" justify-center items-center radial-progress text-[#FF4204]" style="--value:70;"
+            role="progressbar"><SPAN class="text-black font-extrabold">87%</SPAN></div>
+
+          <h4 class="font-semibold text-sm py-3">Player Facility</h4>
+          <p class="text-[#13131899] justify-center items-center">The complex includes many state-of that
+            improve the experience of players</p>
+
+        </div>
+
+        <div class="py-3">
+
+          <div class="radial-progress text-[#49D293]" style="--value:80;" role="progressbar"><SPAN
+              class="text-black font-extrabold">90%</SPAN></div>
+
+          <h4 class="font-semibold text-sm py-3">Experienced Coach</h4>
+          <p class="text-[#13131899]">The arrival of such an experienced coach played a major role.</p>
+        </div>
+
+
+        <div class="py-3">
+
+
+          <div class="radial-progress text-[#FFB546]" style="--value:87;" role="progressbar"><SPAN
+              class="text-black font-extrabold">95%</SPAN></div>
+          <h4 class="font-semibold text-sm py-3">Senior Player</h4>
+          <p class="text-[#13131899]">Current year Senior Player of the Year point leaders beginning with
+            position 11.</p>
+        </div>
+
+
+        <div class="py-3">
+
+
+          <div class="radial-progress text-[#4C8DF1]" style="--value:74;" role="progressbar"><SPAN
+              class="text-black font-extrabold">80%</SPAN></div>
+
+          <h4 class="font-semibold text-sm py-3">Play Ground</h4>
+          <p class="text-[#13131899]">The facility, a $9 million addition to Doug Kingsmore Stadium.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- progress section -->
+
+    <section class="container mx-auto lg:px-24 py-8">
+
+      <div>
+        <h1 class="font-extrabold text-4xl text-black">Program Sections</h1>
+        <p class="text-[#13131899] py-2">We arrange a meeting but then something always comes up or he can't make it.
+        </p>
+
+      </div>
+
+
+
+
+      <div class="flex flex-col lg:flex-row  gap-7 py-8 lg:gap-6">
+
+        <div class=" card w-full px-4 lg:px-0  lg:w-1/2 bg-base-100 shadow-xl image-full">
+          <figure><img class="w-full" src="./Images/2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+
+            <div class="p">
+              <h2 class="card-title">Junior Program</h2>
+
+              <p class="text-start py-24">Junior Players is the oldest children's theater in Dallas. We have provided
+                unique arts education programming to the youth of North Texas since 1955.
+              </p>
+            </div>
+
+
+            <div class="card-actions">
+              <button class="-mt-12 btn btn-error text-white">Register Now</button>
+
+            </div>
+
+          </div>
+        </div>
+
+
+        <div class="card w-full px-4 lg:px-0  lg:w-1/2 bg-base-100 shadow-xl image-full">
+          <figure><img class="w-full " src="./Images/3.png" alt="Shoes" /></figure>
+          <div class="card-body">
+
+            <div class="p">
+              <h2 class="card-title">Teenage Program</h2>
+
+              <p class="text-start py-24">Teenage Players is the oldest children's theater in Dallas. We have provided
+                unique arts education programming to the youth of North Texas since 1955.
+              </p>
+            </div>
+            <div class="card-actions ">
+              <button class="btn btn-error text-white">Register Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+      </div>
+
+      <div>
+
+        <div class="mt-6 px-4 lg:px-0 card w-full bg-base-100 shadow-xl image-full">
+          <figure><img class="w-full" src="./Images/banner2.png" alt="Shoes" /></figure>
+          <div class="card-body">
+
+            <div class="p">
+              <h2 class="card-title">Professional Program</h2>
+
+              <p class="text-start py-24">Professional Players is the oldest children's theater in Dallas. We have
+                provided unique arts education programming to the youth of North Texas since 1955.
+              </p>
+            </div>
+            <div class="card-actions">
+              <button class="btn btn-error text-white">Register Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- products section -->
+    <section class="container mx-auto px-4 lg:px-24 py-8">
+      <div>
+        <h2 class="font-extrabold text-4xl text-black py-2">Our New Products</h2>
+        <p class="font-semibold text-[#13131899]">The related products are automatically generated based on products
+          that are commonly purchased together.</p>
+      </div>
+    </section>
+
+
+    <section class="container mx-auto lg:px-24 grid grid-cols-1  lg:grid-cols-2 space-y-3 ">
+
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4 ">
+
+        <div><img  src="./Images/5.png" alt=""> </div>
+        <div class="px-10">
+
+          <div class="text-start py-2">
+            <i class="px-1 text-yellow-400 fa-solid fa-star"></i> 5.0
+            <i class="px-1  fa-regular fa-eye"></i> 20
+            <i class="px-1 fa-regular fa-heart"></i> 200
+          </div>
+          <h2 class="card-title py-2"> World cup Winter Jursey.</h2>
+          <p class="text-start">Get ready for the Men's World Cup with these Jursey.
+          </p>
+
+          <div class="flex py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$32.0</h4>
+            <i class="px-2 fa-solid fa-cart-plus"></i> Delivery Fee : Free
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4">
+
+        <div><img src="./Images/6.png" alt=""> </div>
+        <div class="px-10">
+
+          <div class="text-start py-2">
+            <i class="px-1  text-yellow-400 fa-solid fa-star"></i> 4.8
+            <i class="px-1 fa-regular fa-eye"></i> 25
+            <i class="px-1 fa-regular fa-heart"></i> 210
+          </div >
+          <h2 class="card-title py-2">Let's Your Journey  Team Eagle.</h2>
+          <p class="text-start">Football is a family of team sports that involve, to varying.
+          </p>
+
+          <div class="flex py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$22.0</h4>
+            <i class="px-2 fa-solid fa-cart-plus"></i> Delivery Fee:Free
+          </div>
+        </div>
+
+      </div>
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4 ">
+
+        <div><img src="./Images/7.png" alt=""> </div>
+        <div class="px-10">
+
+          <div class="text-start py-2">
+            <i class="px-1  text-yellow-400 fa-solid fa-star"></i> 4.0
+            <i class="px-1 fa-regular fa-eye"></i> 15
+            <i class="px-1 fa-regular fa-heart"></i> 280
+          </div>
+          <h2 class="card-title py-2">Cap For Hockeys!</h2>
+          <p class="text-start"> Find hats that come in a variety of logos and designs. </p>
+
+          <div class="flex  py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$25.0</h4>
+            <i class="px-2  fa-solid fa-cart-plus"></i> Delivery Fee:Free
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4 ">
+
+        <div><img src="./Images/8.png" alt=""> </div>
+        <div class="px-10 ">
+
+          <div class="text-start py-2">
+            <i class="px-1 text-yellow-400 fa-solid fa-star"></i> 4.3
+            <i class="px-1 fa-regular fa-eye"></i> 23
+            <i class="px-1 fa-regular fa-heart"></i> 180
+          </div>
+          <h2 class="card-title py-2"> World cup Hockey Jursey </h2>
+          <p class="text-start">we'll explore the world of football jerseys available </p>
+
+          <div class="flex py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$15.0</h4>
+            <i class="px-2 fa-solid fa-cart-plus"></i> Delivery Fee:Free
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4 ">
+
+        <div><img src="./Images/9.png" alt=""> </div>
+        <div class="px-10 ">
+
+          <div class="text-start py-2">
+            <i class="px-2  text-yellow-400 fa-solid fa-star"></i> 4.0
+            <i class="px-2  fa-regular fa-eye"></i> 28
+            <i class="px-2 fa-regular fa-heart"></i> 100
+          </div>
+          <h2 class="card-title py-2"> World cup Hockeys Header!</h2>
+          <p class="text-start">Browse Adult and Youth Helmets in a range of colors and size.
+
+          </p>
+
+          <div class="flex py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$42.0</h4>
+            <i class="px-2 fa-solid fa-cart-plus"></i> Delivery Fee:Free
+          </div>
+
+
+
+        </div>
+
+      </div>
+      <div class="flex flex-col justify-center items-center lg:flex-row  gap-4 ">
+
+        <div><img src="./Images/10.png" alt=""> </div>
+        <div class="px-10 ">
+
+          <div class="text-start py-2">
+            <i class=" px-1 text-yellow-400 fa-solid fa-star"></i> 5.0
+            <i class="px-1 fa-regular fa-eye"></i> 20
+            <i class="px-1 fa-regular fa-heart"></i> 200
+          </div>
+          <h2 class="card-title py-2"> World cup Football!</h2>
+          <p class="text-start"> 1,300+ field Footbal ball stock photos and images available.
+          </p>
+
+          <div class="flex py-2">
+            <h4 class="text-red-400 font-extrabold text-sm">Price -$22.0</h4>
+            <i class="px-2  fa-solid fa-cart-plus"></i> Delivery Fee:Free
+          </div>
+
+
+
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+    <!-- clients section -->
+    <section class="container mx-auto px-4 lg:px-24 py-8">
+
+      <h2 class="font-meduim lg:font-extrabold text-4xl text-black">Clients Question</h2>
+      <p class="py-2 text-[#131318]">We're committed to offering our clients unparalleled service experiences. This
+        means we take time to ask the right questions</p>
+
+
+
+    </section>
+
+
+    <!-- accordian section -->
+    <section class="container mx-auto gap-3 lg:px-24 pt-8 lg:flex">
+      <div class="">
+        <img class="px-4 lg:px-0 lg:w-[441px]  lg:h-[447px]" src="./Images/11.png" alt="">
+      </div>
+      <div class="px-4 lg:px-0  lg:w-[1000px] h-[500px]">
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" checked="checked" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Our Equipment</h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Hockey Training</h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Private Lessons</h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Ski Touring</h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Booking</h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+        <div class="collapse collapse-plus bg-base-200">
+          <input type="radio" name="my-accordion-3" />
+          <div class="collapse-title text-xl font-medium">
+            <h4 class="text-start">Pricing </h4>
+          </div>
+          <div class="collapse-content">
+            <p class="text-start">hello</p>
+          </div>
+        </div>
+      </div>
+
+      <section>
+
+
+
+
+  </main>
+  <!-- get In Touch Section -->
+  <section class="container mx-auto px-4  lg:px-24">
+    <div class="grid grid-cols-1 lg:grid-cols-3">
+
+
+
+      <div>
+
+<div class="lg:w-[374px] bg-[#add86740] px-4 py-4">
+  <img class="justify-center"  src="./Images/phone.png" alt="">
+  <h3 class="text-start text-[#13131866]">Phone Number :</h3>
+  <h2 class="text-start font-bold text-black">+8801303552174</h2>
+</div>
+
+<div class="lg:w-[374px] bg-[#add86740] px-4 py-4 mt-7">
+  <img class="justify-center"  src="./Images/email.png" alt="">
+  <h3 class="text-start text-[#13131866]">Email :</h3>
+  <h2 class="text-start font-bold text-black">Hockerssupport@gmail.com</h2>
+</div>
+
+<div class="lg:w-[374px] bg-[#add86740] px-4 py-4 mt-7">
+  <img class="justify-center"  src="./Images/location.png" alt="">
+  <h3 class="text-start text-[#13131866]">Location</h3>
+  <h2 class="text-start font-bold text-black">152/2 Mohakhali Fly Over Dhaka.</h2>
+</div>
+
+
+      </div>
+
+
+
+
+
+      <div class="lg:col-span-2">
+        <div class="grid grid-cols-1  lg:grid-cols-2 gap-5">
+
+          <div>
+            <h4 class="text-start font-extrabold text-black py-2">Your Name</h4>
+            <input type="text" placeholder="Type here your Full name" class="input input-bordered w-full" />
+
+          </div>
+
+          <div>
+            <h4 class="text-start font-extrabold text-black py-2">Your Email</h4>
+            <input type="text" placeholder="Type here your Email" class="input input-bordered w-full" />
+
+          </div>
+          <div>
+            <h4 class="text-start font-extrabold text-black py-2">Subject</h4>
+            <input type="text" placeholder="Type here your Subject" class="input input-bordered w-full" />
+
+          </div>
+          <div>
+            <h4 class="text-start font-extrabold text-black py-2">Phone Number</h4>
+            <input type="text" placeholder="Type here your Phone Number" class="input input-bordered w-full" />
+
+          </div>
+
+        </div>
+
+        <div>
+          <h4 class="font-extrabold text-black text-start py-2">Send Your Message</h4>
+          <textarea class="w-full textarea " placeholder="Send Your Message" rows="6"></textarea>
+
+        </div>
+        <button class="btn btn-error text-white w-full mt-2">Send Message</button>
+      </div>
+
+
+    </div>
+  </section>
+
+  <footer>
+    <section class="container mx-auto px-24">
+
+      <h2 class="py-3 mt-8 font-extrabold text-2xl  text-black">Social media</h2>
+      <div class="px-3">
+        <i class="text-2xl px-3 fa-brands fa-facebook"></i>
+        <i class="text-2xl px-3 fa-brands fa-twitter"></i>
+        <i class="text-2xl px-3  fa-brands fa-instagram"></i>
+        <i class="text-2xl px-3  fa-brands fa-github"></i>
+      </div>
+    </section>
+
+
+    <footer class="footer text-center  mt-8 px-4  p-10  bg-black  text-white">
+      <aside class="px-10">
+        <h3 class="font-extrabold text-3xl">Get In Touch</h3>
+        <p class="text-start">When start a business, you know for a fact that
+          <br>a lot of people tend to look for the description of the company.
+        </p>
+
+
+        <div class="flex items-center ">
+          <i class="text-2xl flex  text-red-600 fa-regular fa-envelope-open"></i>
+          <p class="px-2"> hockeys@support.com</p>
+        </div>
+
+        <div class="flex">
+          <i class="text-2xl text-red-500 fa-solid fa-phone-volume"></i>
+          <p class="px-2">+8801303552174</p>
+        </div>
+      </aside>
+
+
+
+      <div class="flex  px-10 w-auto lg:w-[400px]   gap-32 justify-between  lg:gap-x-32  lg:flex">
+
+        <nav>
+          <header class="footer-title">Services</header>
+          <h1 class="py-2">Branding</h1>
+          <h1 class="py-2">Design</h1>
+          <h1 class="py-2">Helping</h1>
+          <h1 class="py-2">Grouping</h1>
+        </nav>
+
+
+        <nav>
+          <header class="footer-title">company</header>
+
+          <h1 class="py-2">Contact</h1>
+          <h1 class="py-2">Home</h1>
+          <h1 class="py-2">Future</h1>
+          <h1 class="py-2">Enjoy</h1>
+        </nav>
+
+      </div>
+
+
+
+      <nav class="px-24 lg:px-0">
+        <header class="footer-title">Legal</header>
+        <a class="py-2 link link-hover">Terms of use</a>
+        <a class="py-2  link link-hover">Privacy policy</a>
+        <a class="py-2  link link-hover">Cookie policy</a>
+      </nav>
+    </footer>
+
+  </footer>
+
+</body>
+
+</html>

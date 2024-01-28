@@ -1,0 +1,26 @@
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+
+
+/* professional  */
+
+
+
+.professional{
+    text-align: center;
+    /* padding-bottom: 6px; */
+}
+
+.container{
+    text-align: center;
+}
+
+
+@media screen and (max-width: 576px) {
+    .img-container {
+        grid-template-rows: repeat(1, 1fr);
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
